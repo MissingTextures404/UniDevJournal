@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(192, 92, 243);
+    color: navy;
+    /*color: white;*/
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+}
+p
+{
+    font-size: 130%;
+}
+
+.ImageResize
+{
+    height: 70%;
+    width: 70%;
+}
+
+.parallax
+{
+    /* To center text if there is any*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*the parallax effect*/
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+#p1
+{
+    background-image: url(Images/developer\ log.png);
+    height: 520px;
+}
+
+#PLACEHOLDER
+{
+    color:red;
+}
