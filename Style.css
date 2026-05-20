@@ -21,6 +21,12 @@ p
     width: 70%;
 }
 
+.ImageSmaller
+{
+    height: 30%;
+    width: 30%;
+}
+
 .parallax
 {
     /* To center text if there is any*/
